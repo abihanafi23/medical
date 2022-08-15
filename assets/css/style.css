@@ -1,0 +1,399 @@
+body {
+    scroll-behavior: smooth;
+    font-family: montserrat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-container {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.col-left {
+    display: flex;
+    margin-top: 10px;
+    width: 80%;
+    font-weight: bold;
+}
+
+.navbar {
+    margin: 25px;
+}
+
+.navbar a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-inline: 10px;
+    color: grey;
+}
+
+.col-right {
+    align-items: flex-end;
+    margin-top: 20px;
+    width: 25%;
+}
+
+.but-login {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.but-joinus {
+    margin-left: 30px;
+    background-color: blueviolet;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: montserrat;
+    cursor: pointer;
+}
+
+.block-center {
+    width: 37%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.highlight-text {
+    color: blueviolet;
+}
+
+.large-text {
+    font-size: 52px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+.but-get {
+    margin: 10px;
+    padding: 15px;
+    padding-inline: 30px;
+    color: white;
+    background-color: blueviolet;
+    border-width: 1px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.but-learn {
+    margin: 10px;
+    padding: 15px;
+    padding-inline: 30px;
+    color: blueviolet;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 1px;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    margin: 15%;
+}
+
+.exa-text {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.multi-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mini-container {
+    width: 250px;
+    height: 300px;
+    margin-inline: 10px;
+    box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.mini-container-light {
+    background-color: blueviolet;
+    color: white;
+    width: 240px;
+    height: 310px;
+}
+
+.mini-container-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+
+.mini-container-light-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.container-mid {
+    display: flex;
+    justify-content: space-between;
+    margin: 15%;
+}
+
+.container-mid-half {
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 22%;
+}
+
+.mini-text {
+    color: grey;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.container-grey {
+    display: flex;
+    background-color: #F6F7FB;
+}
+
+.tall-container {
+    width: 250px;
+    background-color: white;
+    margin: 5px;
+    padding: 0px;
+}
+
+.mini-tall-container-img {
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.but-sale {
+    margin: 10px;
+    background-color: red;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.mini-tall-container-icon-bar {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    margin-top: 80%;
+}
+
+.mini-tall-container-icon {
+    width: 100%;
+}
+
+.mini-tall-container-icon img {
+    cursor: pointer;
+}
+
+.mini-text-beside-download {
+    color: rgba(0 , 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.price-text {
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.price-text2 {
+    color: #FF7B52;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.minier-text {
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+    margin-left: 5px;
+}
+
+.but-learn-more {
+    padding: 15px 40px;
+    border-color: blueviolet;
+    border-width: 1px;
+    border-radius: 20px;
+    color: blueviolet;
+    background-color: white;
+    margin-top: 20%;
+    font-weight: bold;
+    font-family: montserrat;
+    cursor: pointer;
+}
+
+.medium-tall-container {
+    width: 350px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.floating-image {
+    margin-left: 275px;
+    position: absolute;
+}
+
+.medium-text {
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.large-price-text {
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+.but-try-for-free {
+    margin-top: 20%;
+    width: 100%;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.check-list-container {
+    margin: 30px 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.check-list-text {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.wide-container {
+    margin: 100px 0px;
+    width: 50%;
+    text-align: center;
+}
+
+.rating-container {
+    text-align: center;
+}
+
+.bottom-container {
+    margin: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+.email-form {
+    margin-top: 10%;
+    width: 80%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0 , 0, 0, 0.1);
+    text-align: left;
+    color: grey;
+    font-family: Montserrat;
+}
+
+.but-subscribe {
+    margin-left: -9.35rem;
+    margin-top: 5.65rem;
+    position: absolute;
+    background-color: blueviolet;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    font-family: montserrat;
+    cursor: pointer;
+}
+
+.minier-container {
+    width: 20%;
+    margin: 10px;
+}
+
+.minier-container nav a {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: grey;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.minier-container-rightest {
+    width: 30%;
+    margin: 10px;
+}
+
+.minier-container-rightest nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.minier-container-rightest i {
+    margin-right: 10px; 
+    color: blueviolet; 
+    font-size: 24px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.iconbar i {
+    color: blueviolet;
+    font-size: 24px;
+    margin: 10px;
+}
